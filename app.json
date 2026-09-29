@@ -26,7 +26,10 @@
       "favicon": "./assets/icon.png"
     },
     "extra": {
-      "website": "https://www.autowrapcoverage.com/"
+      "website": "https://www.autowrapcoverage.com/",
+      "eas": {
+        "projectId": "dde8f2af-1e4f-4642-ab1e-b29cb00e68d0"
+      }
     }
   }
 }
