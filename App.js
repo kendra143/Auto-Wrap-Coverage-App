@@ -86,7 +86,7 @@ function HomeScreen({ navigate }) {
         <View style={styles.grid}>
           <QuickCard title="View Plans" subtitle="Compare available coverage" marker="01" onPress={() => navigate('Plans')} />
           <QuickCard title="Claims & Repairs" subtitle="Get help starting a claim" marker="02" onPress={() => navigate('Claims')} />
-          <QuickCard title="Customer Portal" subtitle="Account access is coming next" marker="03" onPress={() => navigate('Portal')} />
+          <QuickCard title="Customer Portal" subtitle="Feature Coming Soon" marker="03" onPress={() => navigate('Portal')} />
           <QuickCard title="Contact Us" subtitle="Call, email, or message us" marker="04" onPress={() => navigate('Contact')} />
         </View>
       </View>
@@ -314,11 +314,11 @@ function ClaimsScreen({ navigate }) {
 function PortalScreen({ navigate }) {
   return (
     <ScrollView contentContainerStyle={styles.screenContent} showsVerticalScrollIndicator={false}>
-      <Header title="Customer Portal" subtitle="Phase 2 connection" showBack onBack={() => navigate('Home')} />
+      <Header title="Customer Portal" subtitle="Feature Coming Soon" showBack onBack={() => navigate('Home')} />
       <View style={styles.portalCard}>
         <View style={styles.portalIcon}><Text style={styles.portalIconText}>AW</Text></View>
         <Text style={styles.portalTitle}>Your coverage, right in your pocket.</Text>
-        <Text style={styles.portalCopy}>The next phase will connect customers to their vehicle, contract, documents, payment information, and claim status. This screen is intentionally not accepting credentials until the secure customer backend is connected.</Text>
+        <Text style={styles.portalCopy}>Customer Portal access is coming soon. This feature is currently under development and will be available in a future app update.</Text>
         <View style={styles.portalList}>
           <PortalItem text="View vehicle and coverage" />
           <PortalItem text="Open policy documents" />
@@ -342,7 +342,7 @@ function MoreScreen({ navigate }) {
       <Header title="More" subtitle="Auto Wrap Coverage" />
       <MenuRow title="About Auto Wrap" subtitle="Who we are and how it works" onPress={() => navigate('About')} />
       <MenuRow title="Contact Us" subtitle={contact.phoneDisplay} onPress={() => navigate('Contact')} />
-      <MenuRow title="Customer Portal" subtitle="Account access is the next phase" onPress={() => navigate('Portal')} />
+      <MenuRow title="Customer Portal" subtitle="Feature Coming Soon" onPress={() => navigate('Portal')} />
       <MenuRow title="Visit Website" subtitle="AutoWrapCoverage.com" onPress={() => openUrl(contact.website)} />
       <MenuRow title="Terms of Service" subtitle="View the current website terms" onPress={() => openUrl(`${contact.website}terms-of-service`)} />
       <MenuRow title="Privacy Policy" subtitle="View the current website privacy policy" onPress={() => openUrl(`${contact.website}privacy-policy`)} />
