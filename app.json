@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Auto Wrap Coverage",
+    "slug": "auto-wrap-coverage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1A1A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.autowrapcoverage.app"
+    },
+    "android": {
+      "package": "com.autowrapcoverage.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A1A1A"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "website": "https://www.autowrapcoverage.com/"
+    }
+  }
+}

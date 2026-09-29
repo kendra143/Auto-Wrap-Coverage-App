@@ -1,0 +1,15 @@
+export const colors = {
+  ink: '#191919',
+  charcoal: '#2B2B2B',
+  panel: '#343434',
+  red: '#D92D0B',
+  deepRed: '#9D1D0B',
+  cream: '#EFE9C4',
+  gold: '#C79B2B',
+  paper: '#F6F4EF',
+  white: '#FFFFFF',
+  text: '#222222',
+  muted: '#6E6A63',
+  line: '#DED9CF',
+  green: '#237A57',
+};
