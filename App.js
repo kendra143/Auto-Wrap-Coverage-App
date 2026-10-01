@@ -344,8 +344,8 @@ function MoreScreen({ navigate }) {
       <MenuRow title="Contact Us" subtitle={contact.phoneDisplay} onPress={() => navigate('Contact')} />
       <MenuRow title="Customer Portal" subtitle="Feature Coming Soon" onPress={() => navigate('Portal')} />
       <MenuRow title="Visit Website" subtitle="AutoWrapCoverage.com" onPress={() => openUrl(contact.website)} />
-      <MenuRow title="Terms of Service" subtitle="View the current website terms" onPress={() => openUrl(`${contact.website}terms-of-service`)} />
-      <MenuRow title="Privacy Policy" subtitle="View the current website privacy policy" onPress={() => openUrl(`${contact.website}privacy-policy`)} />
+      <MenuRow title="Terms of Service" subtitle="View the current website terms" onPress={() => openUrl("https://www.autowrapcoverage.com/terms-of-service")} />
+      <MenuRow title="Privacy Policy" subtitle="View the current website privacy policy" onPress={() => openUrl("https://www.autowrapcoverage.com/privacy-policy-1")} />
       <View style={styles.disclosureCard}>
         <Text style={styles.disclosureText}>Auto Wrap is an independent seller/provider of vehicle service contract options. Contract availability and terms depend on eligibility and the applicable administrator/service contract.</Text>
       </View>
